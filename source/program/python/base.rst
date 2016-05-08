@@ -1,7 +1,7 @@
-function program
+closure
 =================
 .. toctree::
     :maxdepth: 2
 
-    base/func_pro.rst
+    base/closure.rst
 
