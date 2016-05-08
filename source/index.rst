@@ -8,17 +8,33 @@ Welcome to Dev_Docs's documentation!
 
 Contents:
 
-.. toctree::
+toctree::
    :maxdepth: 2
 
     helloworld
 
 
 
-Indices and tables
+Linux 
 ==================
+命令
+-------
+配置
+-------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+工具
+========
+git
+-------
+mysql
+-------
+
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
+
+编程语言
+==================
+python
+------
 
