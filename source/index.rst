@@ -6,6 +6,8 @@ Welcome
     :maxdepth: 2
     
     introduction
+    linux/index
+    tools/index
 
 
 linux
@@ -15,7 +17,6 @@ linux
     :numbered:
     
 
-    linux/index
 
 常用工具
 ========
@@ -23,7 +24,6 @@ linux
     :maxdepth: 2
     :numbered:
     
-    tools/index
 
 编程语言   
 ========
