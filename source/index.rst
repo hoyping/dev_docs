@@ -10,31 +10,7 @@ Welcome to Dev_Docs's documentation!
 .. toctree::
    :maxdepth: 2
 
-    helloworld
     python
 
 
-
-Linux 
-==================
-命令
--------
-配置
--------
-
-工具
-========
-git
--------
-mysql
--------
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
-
-编程语言
-==================
-python
-------
 
