@@ -4,6 +4,12 @@
 
 模块
 =====
+logging
+-------
+.. toctree::
+    :maxdepth: 2
+
+    logging
 
 
 技巧

@@ -2,10 +2,10 @@
 工具
 ===============
 
-This documentation 
+This section contains tool usage.
 
-Contents:
-
+git
+====
 .. toctree::
     :maxdepth: 2
 
