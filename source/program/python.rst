@@ -4,12 +4,10 @@
 
 模块
 =====
-logging
--------
 .. toctree::
     :maxdepth: 2
 
-    logging
+    python/module
 
 
 技巧
