@@ -6,13 +6,13 @@
 Welcome to Dev_Docs's documentation!
 ====================================
 
-Contents:
 
-toctree::
+.. toctree::
    :maxdepth: 2
 
     helloworld
 
+    :doc:python
 
 
 Linux 
