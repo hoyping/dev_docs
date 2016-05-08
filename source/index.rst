@@ -2,7 +2,10 @@
 Welcome
 ==========
 
-Contents:
+.. toctree::
+    :maxdepth: 2
+    
+    introduction
 
 
 linux
@@ -11,7 +14,8 @@ linux
     :maxdepth: 2
     :numbered:
     
-    linux/sed
+
+    linux/index
 
 常用工具
 ========
@@ -19,7 +23,7 @@ linux
     :maxdepth: 2
     :numbered:
     
-    tools/git
+    tools/index
 
 编程语言   
 ========
@@ -27,7 +31,7 @@ linux
     :maxdepth: 2
     :numbered:
    
-    program/python
+    program/index
 
 Indices and tables
 ==================
