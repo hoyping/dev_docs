@@ -3,15 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Dev_Docs's documentation!
+====================================
+Welcome
 ====================================
 
+Contents:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :numbered:
 
-    ./python
+    python
 
+Indices and tables
+==================
 
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 
