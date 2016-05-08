@@ -11,8 +11,8 @@ Welcome to Dev_Docs's documentation!
    :maxdepth: 2
 
     helloworld
+    python
 
-    :doc:python
 
 
 Linux 
