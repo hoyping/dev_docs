@@ -8,9 +8,10 @@ Welcome to Dev_Docs's documentation!
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :numbered:
 
-    python
+    ./python
 
 
 
