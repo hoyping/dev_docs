@@ -2,12 +2,21 @@
 命令
 ===============
 
-This documentation 
+This section contains commands usage.
 
-Contents:
 
+sed
+------
 .. toctree::
     :maxdepth: 2
 
     sed
+    awk
+    
+awk
+------
+.. toctree::
+    :maxdepth: 2
+
+    awk
     
