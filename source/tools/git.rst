@@ -99,7 +99,8 @@ git merge origin/master --no-ff # 不要Fast-Foward合并，这样可以生成me
 
 git rebase master <branch> # 将master rebase到branch，相当于： git co <branch> && git rebase master && git co master && git merge <branch>
 
-Git补丁管理(方便在多台机器上开发同步时用)
+补丁管理(方便在多台机器上开发同步时用)
+-----------------------------------------
 
 git diff > ../sync.patch # 生成补丁
 
@@ -107,7 +108,7 @@ git apply ../sync.patch # 打补丁
 
 git apply --check ../sync.patch #测试补丁能否成功
 
-Git暂存管理
+暂存管理
 ---------------
 
 git stash # 暂存
@@ -118,7 +119,7 @@ git stash apply # 恢复暂存的内容
 
 git stash drop # 删除暂存区
 
-Git远程分支管理
+远程分支管理
 ----------------
 
 git pull # 抓取远程仓库所有分支更新并合并到本地
@@ -145,7 +146,7 @@ git push origin <local_branch>:<remote_branch> # 创建远程分支
 
 git push origin :<remote_branch> #先删除本地分支(git br -d <branch>)，然后再push删除远程分支
 
-Git远程仓库管理
+远程仓库管理
 ----------------
 
 git remote -v # 查看远程服务器地址和仓库名称
@@ -154,7 +155,7 @@ git remote show origin # 查看远程服务器仓库状态
 
 git remote add origin git@ github:robbin/robbin_site.git # 添加远程仓库地址
 
-git remote set-url origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址) git remote rm <repository> # 删除远程仓库
+git remote set-url origin git@github.com:xxx/xxx.git # 设置远程仓库地址(用于修改远程仓库地址) git remote rm <repository> # 删除远程仓库
 
 创建远程仓库
 --------------
