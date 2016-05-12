@@ -5,6 +5,14 @@
 
     python/base
 
+进阶
+=====
+.. toctree::
+    :maxdepth: 2
+
+    python/advance
+
+
 
 模块
 =====
@@ -12,6 +20,7 @@
     :maxdepth: 2
 
     python/module
+
 
 
 技巧

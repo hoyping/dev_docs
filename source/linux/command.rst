@@ -1,5 +1,5 @@
 ===============
-命令
+command
 ===============
 
 This section contains commands usage.
