@@ -11,11 +11,4 @@ git
 
     git
 
-mysql
-======
-.. toctree::
-    :maxdepth: 2
-
-    mysql
-    
     
