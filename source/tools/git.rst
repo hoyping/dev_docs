@@ -203,16 +203,22 @@ git branch --set-upstream develop origin/develop
 标签实际意义上就是一个分支
 
 git tag [-l]   #显示标签
+
 git tag v0.1  #轻量级标签
+
 git tag -a v0.1.1 -m “0.1.2版本”  #创建附注标签
+
 git tag -d v0.1    #删除标签
+
 git tag -a v0.1.1 9fbc3d0  #为某次提交打标签
+
 git push --tag    #push tag到远程库
 
 
 冲突解决
-========
+=========
 当多人修改同部分代码时，会引发冲突，看到提示文件冲突时，直接打开相关文件查看
+
 ::
     ++<<<<<<< HEAD
     ++You code
