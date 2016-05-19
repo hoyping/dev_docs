@@ -2,6 +2,19 @@
 基本操作
 ========
 
+设置命令别名
+-------------
+
+git global alias config.br branch
+
+git global alias config.co checkout
+
+git global alias config.cm commit
+
+git global alias config.pl pull
+
+git global alias config.ps push
+
 查看、添加、提交、删除、找回，重置修改文件
 ----------------------------------------------
 git help <command> # 显示command的help
@@ -54,7 +67,9 @@ git diff --stat # 仅仅比较统计信息
 查看提交记录
 --------------
 
-git log git log <file> # 查看该文件每次提交记录
+git log #查看提交日志
+
+git log <file> # 查看该文件每次提交记录
 
 git log -p <file> # 查看每次详细修改内容的diff
 
@@ -110,6 +125,7 @@ git apply --check ../sync.patch #测试补丁能否成功
 
 暂存管理
 ---------------
+当你做啦一些修改，不想提交且想保存这些变化，可以使用此功能
 
 git stash # 暂存
 
@@ -153,16 +169,17 @@ git remote -v # 查看远程服务器地址和仓库名称
 
 git remote show origin # 查看远程服务器仓库状态
 
-git remote add origin git@ github:robbin/robbin_site.git # 添加远程仓库地址
+git remote set-url origin git@github.com:xxx/xxx.git # 设置远程仓库地址(用于修改远程仓库地址) 
 
-git remote set-url origin git@github.com:xxx/xxx.git # 设置远程仓库地址(用于修改远程仓库地址) git remote rm <repository> # 删除远程仓库
+git remote rm <repository> # 删除远程仓库
+
+
+git remote add alias remote@git.repo    #添加多个远程库时可使用不同打别名
 
 创建远程仓库
 --------------
 
 git clone --bare xxx.git # 用带版本的项目创建纯版本仓库
-
-scp -r my_project.git git@git.csdn.net:~ # 将纯仓库上传到服务器上
 
 mkdir xxx.git && cd xxx.git && git --bare init # 在服务器创建纯仓库
 
@@ -170,7 +187,7 @@ git remote add origin git@github.com:xxx.git # 设置远程仓库地址
 
 git push -u origin master # 客户端首次提交
 
-git push -u origin develop # 首次将本地develop分支提交到远程develop分支，并且track
+git push -u origin develop # 首次将本地develop分支提交到远程develop分支
 
 git remote set-head origin master # 设置远程仓库的HEAD指向master分支
 
@@ -181,7 +198,27 @@ git branch --set-upstream master origin/master
 git branch --set-upstream develop origin/develop
 
 
+打标签
+-------
+标签实际意义上就是一个分支
+
+git tag [-l]   #显示标签
+git tag v0.1  #轻量级标签
+git tag -a v0.1.1 -m “0.1.2版本”  #创建附注标签
+git tag -d v0.1    #删除标签
+git tag -a v0.1.1 9fbc3d0  #为某次提交打标签
+git push --tag    #push tag到远程库
+
+
 冲突解决
 ========
+当多人修改同部分代码时，会引发冲突，看到提示文件冲突时，直接打开相关文件查看
+::
+    ++<<<<<<< HEAD
+    ++You code
+    ++=======
+    ++other's code
+    ++>>>>>>>9d201a9c61bc4713f4095175f8954b642dae8f86
 
+修改后确定提交
 
